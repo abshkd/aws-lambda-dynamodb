@@ -1,7 +1,8 @@
 """ Process a DynamoDB stream Event NEW/OLD
 
 Comfigure the DynamoDB stream to use this Lambda Function using AWS Console.
-No additional packages or permissions.
+No additional packages needed in zip.
+The Lambda role must have `AWSLambdaInvocation-DynamoDB` Permission
 """
 _author__ = "Abhishek Dujari"
 
